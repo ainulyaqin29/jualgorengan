@@ -20,7 +20,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Best Seller',
     description:
       'Adonan renyah berisi irisan kol segar, wortel manis, tauge, dan daun bawang. Disajikan hangat lengkap dengan cabai rawit hijau.',
-    image: './assets/images/bakwan.svg',
+    image: './foto_produk/Sepatu Pro ATT GLT hitam.png',
     prepMinutes: 8,
     isFeatured: true,
   },
@@ -35,7 +35,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Pedas Nampol',
     description:
       'Tahu pong krispi diisi tumisan tauge, wortel, dan cabai rawit merah ulek yang pedas gurih menggigit.',
-    image: './assets/images/tahu-isi.svg',
+    image: './foto_produk/Sepatu Pro ATT GLT hitam 4.png',
     prepMinutes: 10,
     isFeatured: true,
   },
@@ -50,7 +50,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Hangat',
     description:
       'Tempe tipis khas Banyumas dibalut tepung berbumbu ketumbar, kunyit, dan irisan daun bawang, lengkap dengan sambal kecap.',
-    image: './assets/images/tempe-mendoan.svg',
+    image: './foto_produk/Sepatu Pro Att GLT hitam putih.png',
     prepMinutes: 8,
     isFeatured: true,
   },
@@ -65,7 +65,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Manis Legit',
     description:
       'Pisang kepok kuning matang dibalut tepung krispi berkaramel madu murni dan taburan wijen sangrai.',
-    image: './assets/images/pisang-goreng.svg',
+    image: './foto_produk/Sepatu Pro Att GLT hitam putih 2.png',
     prepMinutes: 10,
   },
   {
@@ -79,7 +79,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Premium',
     description:
       'Kulit risol lembut berbalut tepung panir keemasan, berisi smoked beef, telur rebus, keju, dan saus mayones creamy.',
-    image: './assets/images/risol-mayo.svg',
+    image: './foto_produk/Sepatu Pro Att GLT hitam dan hitam putih.png',
     prepMinutes: 12,
     isFeatured: true,
   },
@@ -94,7 +94,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Kenyal Krispi',
     description:
       'Cireng aci krispi di luar dan kenyal di dalam, dicocol bumbu rujak gula aren asam-pedas segar.',
-    image: './assets/images/cireng-rujak.svg',
+    image: './foto_produk/Sepatu Pro ATT Magnet hitam.png',
     prepMinutes: 10,
   },
   {
@@ -108,7 +108,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Hemat 15%',
     description:
       'Kombinasi pas teman ngopi: 2 Bakwan, 2 Tempe Mendoan, 2 Tahu Isi, dan 2 Pisang Goreng Madu + cabai & sambal kecap.',
-    image: './assets/images/paket-hemat.svg',
+    image: './foto_produk/Sepatu Pro ATT Magnet hitam 2.png',
     prepMinutes: 15,
     isFeatured: true,
   },
@@ -123,7 +123,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Favorit Ramean',
     description:
       'Box besar berisi 4 Bakwan, 4 Tempe Mendoan, 3 Tahu Isi Mercon, 3 Pisang Goreng Madu, dan 2 Risol Mayo.',
-    image: './assets/images/paket-hemat.svg',
+    image: './foto_produk/Sepatu Pro ATT Magnet hitam 3.png',
     prepMinutes: 20,
   },
   {
@@ -137,7 +137,7 @@ export const INITIAL_PRODUCTS: readonly Product[] = [
     badge: 'Laris',
     description:
       'Tape singkong manis legit digoreng krispi dengan topping parutan keju cheddar dan saus cokelat lumer.',
-    image: './assets/images/tape-keju.svg',
+    image: './foto_produk/Sepatu Pro ATT MCL hitam 3.png',
     prepMinutes: 10,
   },
 ];
