@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF9C3"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
+    </linearGradient>
+    <linearGradient id="banana" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="55%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" fill="url(#bg)"/>
+  <ellipse cx="160" cy="176" rx="108" ry="18" fill="#9A3412" fill-opacity="0.16"/>
+  <!-- Pisang fan 1 -->
+  <path d="M72 140c22-46 64-66 106-52-18 36-52 60-106 52z" fill="url(#banana)" stroke="#B45309" stroke-width="2.5"/>
+  <!-- Pisang fan 2 -->
+  <path d="M126 144c26-50 74-68 118-48-22 40-62 64-118 48z" fill="url(#banana)" stroke="#B45309" stroke-width="2.5"/>
+  <!-- Honey glaze drizzle -->
+  <path d="M98 118c18-14 38-18 56-10m-14 20c20-16 48-22 76-12" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M150 124c18-12 36-14 54-6" stroke="#FEF08A" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Sesame seeds -->
+  <circle cx="122" cy="112" r="2" fill="#FFFBEB"/>
+  <circle cx="144" cy="102" r="2" fill="#FFFBEB"/>
+  <circle cx="182" cy="110" r="2" fill="#FFFBEB"/>
+  <circle cx="204" cy="118" r="2" fill="#FFFBEB"/>
+  <circle cx="168" cy="128" r="2" fill="#FFFBEB"/>
+</svg>

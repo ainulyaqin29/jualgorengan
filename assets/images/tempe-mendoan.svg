@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ECFCCB"/>
+      <stop offset="100%" stop-color="#FEF08A"/>
+    </linearGradient>
+    <linearGradient id="mendoan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#EAB308"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" fill="url(#bg)"/>
+  <ellipse cx="160" cy="176" rx="112" ry="18" fill="#854D0E" fill-opacity="0.16"/>
+  <!-- Daun pisang alas -->
+  <path d="M58 158c38-20 166-24 206 2-32 16-168 18-206-2z" fill="#16A34A" fill-opacity="0.85"/>
+  <!-- Tempe Mendoan 1 -->
+  <rect x="74" y="88" width="118" height="68" rx="14" transform="rotate(-10 74 88)" fill="url(#mendoan)" stroke="#CA8A04" stroke-width="2.5"/>
+  <!-- Daun bawang flecks -->
+  <ellipse cx="110" cy="108" rx="7" ry="3" transform="rotate(-25 110 108)" fill="#15803D"/>
+  <ellipse cx="148" cy="96" rx="8" ry="3" transform="rotate(15 148 96)" fill="#15803D"/>
+  <ellipse cx="132" cy="126" rx="6" ry="2.5" transform="rotate(10 132 126)" fill="#16A34A"/>
+  <!-- Tempe Mendoan 2 -->
+  <rect x="132" y="76" width="118" height="68" rx="14" transform="rotate(8 132 76)" fill="url(#mendoan)" stroke="#CA8A04" stroke-width="2.5"/>
+  <ellipse cx="176" cy="102" rx="8" ry="3" transform="rotate(-15 176 102)" fill="#15803D"/>
+  <ellipse cx="210" cy="116" rx="7" ry="3" transform="rotate(20 210 116)" fill="#15803D"/>
+  <ellipse cx="164" cy="124" rx="6" ry="2.5" fill="#16A34A"/>
+  <!-- Sambal kecap bowl -->
+  <ellipse cx="242" cy="152" rx="26" ry="12" fill="#451A03"/>
+  <ellipse cx="242" cy="149" rx="20" ry="8" fill="#1C1917"/>
+  <circle cx="236" cy="148" r="2.5" fill="#EF4444"/>
+  <circle cx="247" cy="150" r="2.5" fill="#22C55E"/>
+</svg>

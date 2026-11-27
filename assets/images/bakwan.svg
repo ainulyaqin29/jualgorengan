@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <radialGradient id="crust" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="70%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" fill="url(#bg)"/>
+  <ellipse cx="160" cy="176" rx="108" ry="18" fill="#B45309" fill-opacity="0.18"/>
+  <!-- Bakwan 1 -->
+  <path d="M88 134c-8-22 10-46 38-50 28-4 54 14 58 36 4 22-18 40-48 40s-40-4-48-26z" fill="url(#crust)"/>
+  <path d="M98 118c12-6 28-4 40 4m-32 14c16-4 32 2 44 10" stroke="#EA580C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M114 102c8 4 14 12 18 20m14-16c-6 8-8 16-6 24" stroke="#16A34A" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Bakwan 2 -->
+  <path d="M148 114c-6-20 12-40 38-44 26-4 50 12 52 34 2 20-16 36-44 36s-40-6-46-26z" fill="url(#crust)" stroke="#B45309" stroke-width="2"/>
+  <path d="M164 96c14-4 28 0 38 10m-34 14c14-2 26 2 34 10" stroke="#F97316" stroke-width="4" stroke-linecap="round"/>
+  <path d="M180 86c4 8 8 14 8 22m14-14c-6 6-10 12-10 20" stroke="#15803D" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Cabe Rawit -->
+  <path d="M72 152c14-4 28 2 34 10-12 6-26 2-34-10z" fill="#DC2626"/>
+  <path d="M70 150c-4-4-8-6-12-4" stroke="#15803D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="242" cy="146" r="6" fill="#EF4444"/>
+  <circle cx="255" cy="154" r="5" fill="#16A34A"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFEDD5"/>
+      <stop offset="100%" stop-color="#FED7AA"/>
+    </linearGradient>
+    <linearGradient id="tofu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" fill="url(#bg)"/>
+  <ellipse cx="160" cy="176" rx="106" ry="18" fill="#9A3412" fill-opacity="0.16"/>
+  <!-- Tahu 1 -->
+  <path d="M84 96l56-24 52 24-12 64-56 18-48-24 8-58z" fill="url(#tofu)" stroke="#B45309" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M96 106c18 6 34 8 52 2" stroke="#DC2626" stroke-width="5" stroke-linecap="round"/>
+  <path d="M104 114c14 4 24 4 36 0" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Tahu 2 -->
+  <path d="M150 84l54-20 46 24-10 62-52 16-44-22 6-60z" fill="url(#tofu)" stroke="#B45309" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M164 96c16 6 30 6 46 0" stroke="#EA580C" stroke-width="5" stroke-linecap="round"/>
+  <!-- Chili sparks -->
+  <path d="M236 146c12-10 26-8 34 2-12 10-24 10-34-2z" fill="#DC2626"/>
+  <path d="M270 148c4-4 8-4 10-1" stroke="#15803D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="84" cy="70" r="5" fill="#EF4444" fill-opacity="0.6"/>
+  <circle cx="248" cy="64" r="4" fill="#F97316" fill-opacity="0.6"/>
+</svg>

@@ -1,4 +1,4 @@
-const THEME_STORAGE_KEY = 'init-vanilla-theme';
+const THEME_STORAGE_KEY = 'gorengankuy_theme_v1';
 export class ThemeManager {
     currentTheme;
     toggleButton = null;
@@ -6,8 +6,7 @@ export class ThemeManager {
     iconMoon = null;
     constructor() {
         const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        this.currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+        this.currentTheme = savedTheme === 'dark' ? 'dark' : 'light';
     }
     init() {
         this.toggleButton = document.getElementById('theme-toggle-btn');
@@ -49,9 +48,6 @@ export class ThemeManager {
             this.iconSun.classList.add('hidden');
             this.iconMoon.classList.remove('hidden');
         }
-    }
-    getTheme() {
-        return this.currentTheme;
     }
 }
 //# sourceMappingURL=theme.js.map

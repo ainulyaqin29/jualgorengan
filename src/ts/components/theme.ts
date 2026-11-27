@@ -1,6 +1,6 @@
 import { ThemeMode } from '../types/index.js';
 
-const THEME_STORAGE_KEY = 'init-vanilla-theme';
+const THEME_STORAGE_KEY = 'gorengankuy_theme_v1';
 
 export class ThemeManager {
   private currentTheme: ThemeMode;
@@ -10,8 +10,7 @@ export class ThemeManager {
 
   constructor() {
     const savedTheme = localStorage.getItem(THEME_STORAGE_KEY) as ThemeMode | null;
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    this.currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+    this.currentTheme = savedTheme === 'dark' ? 'dark' : 'light';
   }
 
   public init(): void {
@@ -44,13 +43,11 @@ export class ThemeManager {
       root.classList.remove('dark');
       root.classList.add('light');
     }
-
     this.updateIcons(theme);
   }
 
   private updateIcons(theme: ThemeMode): void {
     if (!this.iconSun || !this.iconMoon) return;
-
     if (theme === 'dark') {
       this.iconSun.classList.remove('hidden');
       this.iconMoon.classList.add('hidden');
@@ -58,9 +55,5 @@ export class ThemeManager {
       this.iconSun.classList.add('hidden');
       this.iconMoon.classList.remove('hidden');
     }
-  }
-
-  public getTheme(): ThemeMode {
-    return this.currentTheme;
   }
 }

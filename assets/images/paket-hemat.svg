@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="320" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FDE047"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="20" fill="url(#bg)"/>
+  <ellipse cx="160" cy="178" rx="115" ry="18" fill="#92400E" fill-opacity="0.18"/>
+  <!-- Box base -->
+  <rect x="64" y="88" width="192" height="80" rx="16" fill="#B45309"/>
+  <rect x="72" y="80" width="176" height="72" rx="14" fill="#FFFBEB" stroke="#D97706" stroke-width="2.5"/>
+  <!-- Assorted gorengan inside -->
+  <circle cx="110" cy="112" r="24" fill="#F59E0B" stroke="#B45309" stroke-width="2"/>
+  <circle cx="158" cy="108" r="26" fill="#FBBF24" stroke="#B45309" stroke-width="2"/>
+  <circle cx="206" cy="114" r="24" fill="#D97706" stroke="#92400E" stroke-width="2"/>
+  <path d="M102 108l14 8m36-14l16 10m34-4l12 8" stroke="#EA580C" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Ribbon badge -->
+  <rect x="108" y="42" width="104" height="28" rx="14" fill="#DC2626"/>
+  <text x="160" y="60" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="bold">PAKET HEMAT</text>
+</svg>
